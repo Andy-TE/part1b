@@ -43,6 +43,7 @@ const App = () => {
     <div>
       <h1>Anecdote of the day</h1>
       {anecdotes[selected]}
+      <p></p>
       <Button handleClick = {() => handleClick()} text = "next anecdote" />
       <Vote increaseVote = {() => increaseVote()} text = "vote"/>
       <h1>Anecdote with most votes</h1>
